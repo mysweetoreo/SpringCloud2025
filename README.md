@@ -16,4 +16,11 @@ PRIMARY KEY (`id`)
 
 INSERT INTO t_pay(pay_no,order_no) VALUES('pay17203699','6544bafb424a');
 
-##
+## 提交git ##
+echo "# SpringCloud2025" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mysweetoreo/SpringCloud2025.git
+git push -u origin main
